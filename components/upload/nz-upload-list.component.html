@@ -54,4 +54,7 @@
   <div *ngIf="file.status === 'uploading'" class="ant-upload-list-item-progress">
     <nz-progress [nzPercent]="file.percent" [nzShowInfo]="false" [nzStrokeWidth]="2"></nz-progress>
   </div>
+  <div>
+    <input nz-input placeholder="测试" [(ngModel)]="file.money">
+  </div>
 </div>
