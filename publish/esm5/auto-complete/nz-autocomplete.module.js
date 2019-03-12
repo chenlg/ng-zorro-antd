@@ -1,0 +1,28 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { OverlayModule } from '@angular/cdk/overlay';
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { NzAddOnModule } from '../core/addon/addon.module';
+import { NzNoAnimationModule } from '../core/no-animation/nz-no-animation.module';
+import { NzAutocompleteOptgroupComponent } from './nz-autocomplete-optgroup.component';
+import { NzAutocompleteOptionComponent } from './nz-autocomplete-option.component';
+import { NzAutocompleteTriggerDirective } from './nz-autocomplete-trigger.directive';
+import { NzAutocompleteComponent } from './nz-autocomplete.component';
+var NzAutocompleteModule = /** @class */ (function () {
+    function NzAutocompleteModule() {
+    }
+    NzAutocompleteModule.decorators = [
+        { type: NgModule, args: [{
+                    declarations: [NzAutocompleteComponent, NzAutocompleteOptionComponent, NzAutocompleteTriggerDirective, NzAutocompleteOptgroupComponent],
+                    exports: [NzAutocompleteComponent, NzAutocompleteOptionComponent, NzAutocompleteTriggerDirective, NzAutocompleteOptgroupComponent],
+                    imports: [CommonModule, OverlayModule, FormsModule, NzAddOnModule, NzNoAnimationModule]
+                },] }
+    ];
+    return NzAutocompleteModule;
+}());
+export { NzAutocompleteModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibnotYXV0b2NvbXBsZXRlLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25nLXpvcnJvLWFudGQvIiwic291cmNlcyI6WyJhdXRvLWNvbXBsZXRlL256LWF1dG9jb21wbGV0ZS5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSxzQkFBc0IsQ0FBQztBQUNyRCxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDL0MsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsV0FBVyxFQUFFLE1BQU0sZ0JBQWdCLENBQUM7QUFFN0MsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDRCQUE0QixDQUFDO0FBQzNELE9BQU8sRUFBRSxtQkFBbUIsRUFBRSxNQUFNLDZDQUE2QyxDQUFDO0FBRWxGLE9BQU8sRUFBRSwrQkFBK0IsRUFBRSxNQUFNLHNDQUFzQyxDQUFDO0FBQ3ZGLE9BQU8sRUFBRSw2QkFBNkIsRUFBRSxNQUFNLG9DQUFvQyxDQUFDO0FBQ25GLE9BQU8sRUFBRSw4QkFBOEIsRUFBRSxNQUFNLHFDQUFxQyxDQUFDO0FBQ3JGLE9BQU8sRUFBRSx1QkFBdUIsRUFBRSxNQUFNLDZCQUE2QixDQUFDO0FBRXRFO0lBQUE7SUFNQSxDQUFDOztnQkFOQSxRQUFRLFNBQUM7b0JBQ1IsWUFBWSxFQUFFLENBQUMsdUJBQXVCLEVBQUUsNkJBQTZCLEVBQUUsOEJBQThCLEVBQUUsK0JBQStCLENBQUM7b0JBQ3ZJLE9BQU8sRUFBRSxDQUFDLHVCQUF1QixFQUFFLDZCQUE2QixFQUFFLDhCQUE4QixFQUFFLCtCQUErQixDQUFDO29CQUNsSSxPQUFPLEVBQUUsQ0FBQyxZQUFZLEVBQUUsYUFBYSxFQUFFLFdBQVcsRUFBRSxhQUFhLEVBQUUsbUJBQW1CLENBQUM7aUJBQ3hGOztJQUVELDJCQUFDO0NBQUEsQUFORCxJQU1DO1NBRFksb0JBQW9CIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgT3ZlcmxheU1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2Nkay9vdmVybGF5JztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5pbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgRm9ybXNNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9mb3Jtcyc7XG5cbmltcG9ydCB7IE56QWRkT25Nb2R1bGUgfSBmcm9tICcuLi9jb3JlL2FkZG9uL2FkZG9uLm1vZHVsZSc7XG5pbXBvcnQgeyBOek5vQW5pbWF0aW9uTW9kdWxlIH0gZnJvbSAnLi4vY29yZS9uby1hbmltYXRpb24vbnotbm8tYW5pbWF0aW9uLm1vZHVsZSc7XG5cbmltcG9ydCB7IE56QXV0b2NvbXBsZXRlT3B0Z3JvdXBDb21wb25lbnQgfSBmcm9tICcuL256LWF1dG9jb21wbGV0ZS1vcHRncm91cC5jb21wb25lbnQnO1xuaW1wb3J0IHsgTnpBdXRvY29tcGxldGVPcHRpb25Db21wb25lbnQgfSBmcm9tICcuL256LWF1dG9jb21wbGV0ZS1vcHRpb24uY29tcG9uZW50JztcbmltcG9ydCB7IE56QXV0b2NvbXBsZXRlVHJpZ2dlckRpcmVjdGl2ZSB9IGZyb20gJy4vbnotYXV0b2NvbXBsZXRlLXRyaWdnZXIuZGlyZWN0aXZlJztcbmltcG9ydCB7IE56QXV0b2NvbXBsZXRlQ29tcG9uZW50IH0gZnJvbSAnLi9uei1hdXRvY29tcGxldGUuY29tcG9uZW50JztcblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbTnpBdXRvY29tcGxldGVDb21wb25lbnQsIE56QXV0b2NvbXBsZXRlT3B0aW9uQ29tcG9uZW50LCBOekF1dG9jb21wbGV0ZVRyaWdnZXJEaXJlY3RpdmUsIE56QXV0b2NvbXBsZXRlT3B0Z3JvdXBDb21wb25lbnRdLFxuICBleHBvcnRzOiBbTnpBdXRvY29tcGxldGVDb21wb25lbnQsIE56QXV0b2NvbXBsZXRlT3B0aW9uQ29tcG9uZW50LCBOekF1dG9jb21wbGV0ZVRyaWdnZXJEaXJlY3RpdmUsIE56QXV0b2NvbXBsZXRlT3B0Z3JvdXBDb21wb25lbnRdLFxuICBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlLCBPdmVybGF5TW9kdWxlLCBGb3Jtc01vZHVsZSwgTnpBZGRPbk1vZHVsZSwgTnpOb0FuaW1hdGlvbk1vZHVsZV1cbn0pXG5leHBvcnQgY2xhc3MgTnpBdXRvY29tcGxldGVNb2R1bGUge1xufVxuIl19
